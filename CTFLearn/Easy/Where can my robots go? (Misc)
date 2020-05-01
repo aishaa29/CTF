@@ -1,0 +1,11 @@
+Hint: Where do robots find what pages are on a website?
+Hint 2: What does disallow tell a robot?
+Hint 3: The flag is not 70r3hnanldfspufdsoifnlds
+
+Answer:
+website.com/robots.txt
+A robots.txt file tells search engine crawlers which pages or files the crawler can or can't request from your site.
+There was a disallow rule for /70r3hnanldfspufdsoifnlds.html.
+Checking out that page would reveal the flag.
+
+FLAG: abctf{r0b0ts_4r3_th3_futur3}
