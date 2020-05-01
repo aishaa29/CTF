@@ -1,0 +1,10 @@
+This isn't what I had in mind, when I asked someone to capture a flag... can you help? You should check out WireShark.
+https://mega.nz/#!3WhAWKwR!1T9cw2srN2CeOQWeuCm0ZVXgwk-E2v-TrPsZ4HUQ_f4a
+
+Answer:
+Well, first install WireShark.
+It's this tool with which you can manipulate network requests.
+Go through the requests and you will find list that includes packet 255 from www.hazzy.co.uk, which contains the text/html content.
+Decode that with Base64 and you will get your flag.
+
+FLAG: flag{AFlagInPCAP}
