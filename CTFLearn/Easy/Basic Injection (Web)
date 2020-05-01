@@ -1,0 +1,7 @@
+See if you can leak the whole database. The flag is in there somwhere… https://web.ctflearn.com/web4/
+
+Answer :
+
+Here, we use SQL tricks. Add a 'or'1'='1 which displays all records.
+
+FLAG : flag{th4t_is_why_you_n33d_to_sanitiz3_inputs}
