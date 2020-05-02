@@ -1,0 +1,7 @@
+These website requires authentication, via POST. However, it seems as if someone has defaced our site. Maybe these is still some way to authenticate? http://165.227.106.113/post.php
+
+Answer: 
+Here, we are required to send a POST request. The id and password required to find the POST is found in the response to the GET Request.
+The flag is found as response to the POST request.
+
+FLAG: flag{p0st_d4t4_4ll_d4y}
