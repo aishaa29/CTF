@@ -1,0 +1,12 @@
+These numbers were scratched out on a prison wall. Can you help me decode them? https://mega.nz/#!al8iDSYB!s5olEDK5zZmYdx1LZU8s4CmYqnynvU_aOUvdQojJPJQ
+
+Answer:
+So, you definitely have to check out RSA cryptosyste.
+But the essence is,
+    c = m^e mod  n
+Since is e = 1,
+the text is either c,c+n,c+2n.... so on
+Let's take a wild guess and assume m = c
+Convert c to hex and then to ASCII to get the flag.
+
+FLAG: abctf{b3tter_up_y0ur_e}
