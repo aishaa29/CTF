@@ -1,0 +1,9 @@
+The flag used to be there. But then I redacted it. Good Luck. 
+https://mega.nz/#!3CwDFZpJ!Jjr55hfJQJ5-jspnyrnVtqBkMHGJrd6Nn_QqM7iXEuc
+
+Answer:
+Okay, so this problem exposes you to git. The flag is hidden in one of the old commits.
+Extract the file and read the logs by using the command 'git log'
+Use git show to expose the commits. The flag is hidden in the second commit.
+
+FLAG: flag{protect_your_git}
