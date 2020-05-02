@@ -1,0 +1,9 @@
+https://mega.nz/#!CXYXBQAK!6eLJSXvAfGnemqWpNbLQtOHBvtkCzA7-zycVjhHPYQQ 
+I think I lost my flag in there. Hopefully, it won't get attacked...
+
+Answer:
+There is a hidden file. Extract it using binwalk. The flag is hidden inside the "I warned you.jpg" file. But, if you look closer, you'd realize that it is actually a .data file. 
+
+Use strings command to extract the flag.
+
+FLAG: ABCTF{Du$t1nS_D0jo}
