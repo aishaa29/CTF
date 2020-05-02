@@ -1,0 +1,6 @@
+This isn't what I had in mind, when I asked someone to capture a flag... can you help? You should check out WireShark. https://mega.nz/#!3WhAWKwR!1T9cw2srN2CeOQWeuCm0ZVXgwk-E2v-TrPsZ4HUQ_f4
+
+Answer:
+So, open up the file on Wireshark and follow the TCP requests. On the 5th stream, you would find something weird. It is Base64 encoded so decode it to find the flag.
+
+FLAG: flag{AFlagInPCAP}
