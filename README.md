@@ -1,7 +1,7 @@
-# CTF
+# ctf
 Walkthroughs - Descriptions - Hacks
 
-## DESCRIPTIONS
+## description
 
 1. For beginners:
     - Recommended : Install a Linux/UNIX based OS. Either dual boot or download a virtual box. <br>
